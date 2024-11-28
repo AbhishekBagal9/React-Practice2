@@ -1,0 +1,63 @@
+.main{
+    display: flex;
+    max-width: 1000px;
+    gap: 81px;
+    margin: 0 auto;
+}
+.primary-btns{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+.topbtns{
+display: flex;
+flex-direction: column;
+gap:17px;
+}
+.contact-form{
+    position: relative;
+    margin-top: 81px;
+}
+form{
+   margin: 10px;
+    height: 400px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+}
+
+input{
+    height: 40px;
+    padding: 0 10px;
+}
+label{
+    position: relative;
+    font-size: 14px;
+
+
+}
+.image img{
+    object-fit:contain;
+}
+#name{
+    position: absolute;
+    top: -10px;
+    left: 10px;background-color: white;
+}
+#email{
+    position: absolute;
+    top: 54.5px;
+    left: 10px;
+    background-color: white;
+}
+#text{
+    position: absolute;
+    top:120px;
+    left: 10px;
+    background-color:white;
+}
+textarea {
+    padding: 10px; /* Adds 10px of padding to all sides */
+  }
